@@ -10,6 +10,8 @@
         android:id="@+id/tvTitle"
         android:layout_width="match_parent"
         android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
         android:text="@string/title"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -21,6 +23,8 @@
         android:id="@+id/tvDate"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
         android:text="@string/date"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -36,7 +40,7 @@
         app:layout_constraintTop_toBottomOf="@+id/tvDate">
 
         <TextView
-            android:id="@+id/tvNotepadTItle"
+            android:id="@+id/tvNotepadTitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="16dp"
