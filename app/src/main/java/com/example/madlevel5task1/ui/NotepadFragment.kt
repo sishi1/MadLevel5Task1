@@ -8,7 +8,7 @@ import android.view.ViewGroup
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.Observer
 import com.example.madlevel5task1.R
-import com.example.madlevel5task1.viewmodels.notepadViewmodel
+import com.example.madlevel5task1.viewmodels.NotepadViewmodel
 import kotlinx.android.synthetic.main.fragment_notepad.*
 
 /**
@@ -16,7 +16,7 @@ import kotlinx.android.synthetic.main.fragment_notepad.*
  */
 class NotepadFragment : Fragment() {
 
-    private val viewmodel: notepadViewmodel by viewModels()
+    private val viewmodel: NotepadViewmodel by viewModels()
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
